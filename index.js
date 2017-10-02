@@ -25,6 +25,6 @@ function deepestChild() {
     console.log(current)
   }
   c -= ' div'
-  
+
   return  document.querySelector(c)
 }
