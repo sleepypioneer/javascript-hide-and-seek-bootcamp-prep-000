@@ -18,7 +18,8 @@ function deepestChild() {
   if (Array.isArray(current)) {
     let a = current[0]
     current = document.querySelectorAll(a)
-  else {
+  }  else {
     return current
   }
 }
+  
