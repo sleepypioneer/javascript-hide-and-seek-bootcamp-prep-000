@@ -24,5 +24,5 @@ function deepestChild() {
     current = document.querySelectorAll(c)
     console.log(current)
   }
-  return  document.querySelector(c)
+  return  document.querySelectorAll(c)
 }
